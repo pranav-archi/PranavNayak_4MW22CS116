@@ -1,4 +1,7 @@
 function findMax(arr){
+    if(arr.length===0){
+        return null;
+    }
     let maxValue=arr[0]
     for(let item=0;item<arr.length;item++){
         if (arr[item]>maxValue) {
